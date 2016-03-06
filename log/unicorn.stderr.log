@@ -1,0 +1,24 @@
+F, [2016-03-02T13:43:30.830099 #53580] FATAL -- : error adding listener addr=/Users/simonwhiteley/docs4all/sinatra-auth/tmp/sockets/unicorn.sock
+/Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `initialize': No such file or directory - connect(2) for /Users/simonwhiteley/docs4all/sinatra-auth/tmp/sockets/unicorn.sock (Errno::ENOENT)
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `new'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:231:in `listen'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `each'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:130:in `start'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/bin/unicorn:23:in `load'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/bin/unicorn:23:in `<main>'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+	from /Users/simonwhiteley/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-03-02T13:44:10.994327 #53638]  INFO -- : listening on addr=/Users/simonwhiteley/docs4all/sinatra-auth/tmp/sockets/unicorn.sock fd=10
+I, [2016-03-02T13:44:10.994852 #53638]  INFO -- : worker=0 spawning...
+I, [2016-03-02T13:44:10.995718 #53638]  INFO -- : worker=1 spawning...
+I, [2016-03-02T13:44:10.996756 #53638]  INFO -- : master process ready
+I, [2016-03-02T13:44:10.998610 #53640]  INFO -- : worker=1 spawned pid=53640
+I, [2016-03-02T13:44:10.998618 #53639]  INFO -- : worker=0 spawned pid=53639
+I, [2016-03-02T13:44:10.999247 #53639]  INFO -- : Refreshing Gem list
+I, [2016-03-02T13:44:10.999244 #53640]  INFO -- : Refreshing Gem list
+I, [2016-03-02T13:44:11.645309 #53639]  INFO -- : worker=0 ready
+I, [2016-03-02T13:44:11.654355 #53640]  INFO -- : worker=1 ready
