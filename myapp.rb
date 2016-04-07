@@ -18,6 +18,10 @@ enable :sessions
     end
   end
 
+  get '/smile' do
+    ":)"
+  end
+
   get '/branching' do
     "I'm dancing in the rain! I'm daaaaancing in the rain!"
   end
