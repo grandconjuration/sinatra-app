@@ -18,6 +18,10 @@ enable :sessions
     end
   end
 
+  get '/branching' do
+    "I'm branching, baby!"
+  end
+
   get '/login' do
     erb :index
   end
