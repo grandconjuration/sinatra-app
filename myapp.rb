@@ -19,7 +19,7 @@ enable :sessions
   end
 
   get '/branching' do
-    "I'm branching, baby!"
+    "I'm dancing in the rain! I'm daaaaancing in the rain!"
   end
 
   get '/login' do
